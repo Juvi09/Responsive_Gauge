@@ -15,4 +15,11 @@
     /* overflow: hidden; */
 }
 
-.
+.gauge__fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: #009578;
+}
