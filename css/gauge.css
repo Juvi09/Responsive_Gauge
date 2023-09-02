@@ -9,4 +9,7 @@
     height: 0;
     padding-bottom: 50%;
     background: #b4c0be;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
 }
