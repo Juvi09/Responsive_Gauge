@@ -12,7 +12,7 @@
     position: relative;
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
-    /* overflow: hidden; */
+    overflow: hidden; 
 }
 
 .gauge__fill {
@@ -22,4 +22,7 @@
     width: inherit;
     height: 100%;
     background: #009578;
-}
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-out;
+ }
